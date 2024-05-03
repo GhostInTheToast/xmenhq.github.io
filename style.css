@@ -3,20 +3,12 @@
     src: url(./fonts/Norse-Bold.otf);
 }
 
-h1 {
-    font-family: Norse-Bold, sans-serif;
-}
-
-h2 {
-    font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-}
-
 body {
     margin: 0;
     padding: 0;
 }
 
-.main {
+.main{
     display: flex;
     flex-direction: row;
     width: 100vw;
@@ -24,52 +16,16 @@ body {
 }
 
 .left {
-    display: flex;
-    width: 35vw;
-    justify-content: center;
-    background-image: url("./matrix.jpg");
-    background-repeat: no-repeat;
+    background-image: url(./xmenbg.jpeg);
     background-size: cover;
-}
-
-.left h1 {
-    color: red;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 35vw;
 }
 
 .right {
     display: flex;
     flex-direction: column;
-    background-color: #d4d4d4;
+    height: 100vh;
     width: 65vw;
-}
-
-.first {
-    height: 33vh;
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-end;
-    margin-left: 5%;
-    margin-bottom: 5%;
-}
-
-.second {
-    height: 33vh;
-    background-color: white;
-}
-
-.third {
-    height: 33vh;
-}
-
-.form {
-    display: flex;
-    flex-direction: row;
-    width: 80%;
-    justify-content: center;
-}
-
-.form-divs {
-    display: flex;
-    flex-direction: column;
-    width: 50vw;
 }
